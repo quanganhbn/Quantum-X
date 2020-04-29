@@ -1,4 +1,6 @@
-hostname = api.textnow.me, *.videostarapp.com, avatar-nct.nixcdn.com, spclient.wg.spotify.com, *.googlevideo.com, oa.zalo.me, vsco.co, api.gyrosco.pe, origin-prod-phoenix.jibjab.com, api.termius.com, api.picsart.c*, api.meiease.c*, api.unfold.app, viva-asia1.vvbrd.com, graph.nhaccuatui.com, api.memrise.com , buy.itunes.apple.com, api.sync.me, pool.elsanow.io, lambda.us-east-1.amazonaws.com, api.mondlylanguages.com, api.busuu.com, owa.videoshowiosglobalserver.com:0, accounts.elevateapp.net, purchases.ws.pho.to, api-intl.mr.meitu.com, bmall.camera360.com, api.tv.zing.vn, api.calm.com, www.calm.com, api.global.mp3.zing.vn, apimboom2.globaldelight.net, photos.adobe.io, license.pdfexpert.com, subs.platforms.team, apic.musixmatch.com, api.getmimo.com, api.revenuecat.com, pixmagicapp.com, engbright.com, api.lingokids.com, www.peacefulsoundsapp.com, duolingo-leaderboards-prod.duolingo.com, commerce-i18n-api.faceu.mobi, mobi, mobile-api.adguard.com, api.blinkist.com, api.sololearn.com, receipts.cerebralgardens.com, api-kinemaster-assetstore.*, api.pushover.net, api-cs.intsig.net, api.overhq.com, api.appsyscode.com, api.freeletics.com, api.shred.app, receipt-validator.herewetest.com, api.deezer.com, iap.aps-sdk.com, education.github.com, backend.getdrafts.com, ssl-api.itranslateapp.com, sk.ulysses.app, dayone.me, license.enpass.io, mp.bybutter.com, *.grammarly.com, splice.oracle.*.com, api.keepkeep.com, planner5d.com, secure.istreamer.com, www.api.monkeyuni.net, account.wps.com,
+hostname = api.textnow.me, *.videostarapp.com, avatar-nct.nixcdn.com, spclient.wg.spotify.com, *.googlevideo.com, oa.zalo.me, vsco.co, api.gyrosco.pe, origin-prod-phoenix.jibjab.com, api.termius.com, api.picsart.c*, api.meiease.c*, api.unfold.app, viva-asia1.vvbrd.com, graph.nhaccuatui.com, api.memrise.com , buy.itunes.apple.com, api.sync.me, pool.elsanow.io, lambda.us-east-1.amazonaws.com, api.mondlylanguages.com, api.busuu.com, owa.videoshowiosglobalserver.com:0, accounts.elevateapp.net, purchases.ws.pho.to, api-intl.mr.meitu.com, bmall.camera360.com, api.tv.zing.vn, api.calm.com, www.calm.com, api.global.mp3.zing.vn, apimboom2.globaldelight.net, photos.adobe.io, license.pdfexpert.com, subs.platforms.team, apic.musixmatch.com, api.getmimo.com, api.revenuecat.com, pixmagicapp.com, engbright.com, api.lingokids.com, www.peacefulsoundsapp.com, duolingo-leaderboards-prod.duolingo.com, commerce-i18n-api.faceu.mobi, mobi, mobile-api.adguard.com, api.blinkist.com, api.sololearn.com, receipts.cerebralgardens.com, api-kinemaster-assetstore.*, api.pushover.net, api-cs.intsig.net, api.overhq.com, api.appsyscode.com, api.freeletics.com, api.shred.app, receipt-validator.herewetest.com, api.deezer.com, iap.aps-sdk.com, education.github.com, backend.getdrafts.com, ssl-api.itranslateapp.com, sk.ulysses.app, dayone.me, license.enpass.io, mp.bybutter.com, *.grammarly.com, splice.oracle.*.com, api.keepkeep.com, planner5d.com, secure.istreamer.com, www.api.monkeyuni.net, account.wps.com, subs.studycat.net, production.platform.originatorkids.com, pibo.jp,revoapi.moneylover.me, apis.littlefox.com, api.prod.headspace.com, *.sleepcycle.com, api.ejoy.io, api.pushover.net,receipt-validator.herewetest.com, payments-p.yoursmartkid.com, static.moneylover.me, api.farfaria.com, api.kidsup.net, api-production.endel.io, wolframalpha.com, *.wolfram.com,   api.shred.app, vocabinnews.com, *.deluxeweather.com, *.platforms.team, lumosity.com, *.crashlytics.com, license.enpass.io, mp.bybutter.com, *.grammarly.com, splice.oracle.*.com, api.mazii.net, api.revenuecat.com, api.thenx.com, api.quizlet.com, api.spendee.com, ads.penreader.com, device-provisioning.googleapis.com, app.autocad360.com, oecd.oupchina.com.hk, api.lichviet.org,
+
+
 
 # vsco
 ^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ url script-response-body langkhach/vsco.js
@@ -190,3 +192,46 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body l
 
 #Textnow
 ^https:\/\/api\.textnow\.me\/api2.0\/users\/.* url script-response-body langkhach/Textnow.js
+
+#Funenglish
+^https:\/\/subs\.studycat\.net\/1\/validatepurchase$ url script-response-body chankanzu/00FunEng1.1.1.js
+
+#Enless
+#http:\/\/production\.platform\.originatorkids\.com\/rest\/catalog\/update$ url script-response-body chankanzu/004_Req_endless_learning_school.js
+
+#Pipo
+^https:\/\/pibo\.jp\/api\/4\/user\/login$ url script-response-body chankanzu/006pibo.js
+
+#MoneyLover
+^https:\/\/revoapi\.moneylover\.me\/api\/status$ url script-response-body chankanzu/007MoneyLover.js
+^https:\/\/static\.moneylover\.me\/icon_pack\/icon_pack.json$ url 302 chankanzu/icon.moneylover.js
+^https:\/\/static\.moneylover\.me\/data\/subscription_product.json$ url 302 chankanzu/Trial.Moneylover.js
+
+#LittleFox
+^https:\/\/apis\.littlefox\.com\/api\/v1\/auth\/* url script-response-body chankanzu/LittleFox.js
+
+#headspace.com
+^https:\/\/api\.prod\.headspace\.com\/subscription\/user-subscriptions?userId* url script-response-body chankanzu/headspace.js
+
+#Fafaria
+^https:\/\/api\.farfaria\.com\/users\/sign_in.json*  url 302 chankanzu/Fafaria.json
+
+#endel
+^https:\/\/api-production\.endel\.io\/.*\/user$ url script-response-body chankanzu/endel.js
+
+#wolfram
+^https:\/\/www\.wolframalpha\.com\/users\/me\/account* url script-response-body chankanzu/Wolfram1.js
+^https:\/\/account\.wolfram\.com\/auth\/introspect$ url script-response-body chankanzu/Wolfram.js
+
+#4english
+^https:\/\/vocabinnews\.com\/v1\/users\/me\/info$ url script-response-body chankanzu/4english.vip.js
+^https:\/\/vocabinnews\.com\/v1\/users\/me\/functions$ url script-response-body chankanzu/4English2.js
+^https:\/\/onesignal\.com\/api\/v1\/apps\/b060ca09-cf25-42b8-85a1-d2d7021a351f\/ios_params.js* url 302 chankanzu/4english3.js
+^https:\/\/vocabinnews\.com\/v2\/books* url script-response-body chankanzu/4englishbook.js
+
+#weathernow
+^http:\/\/subscription\.deluxeweather\.com\/check_receipt.php$ url 302 chankanzu/Weathernow.php
+
+#weatherlive
+^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$ url script-response-body chankanzu/weathelive.js
+
