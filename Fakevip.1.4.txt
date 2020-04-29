@@ -23,14 +23,14 @@ static=Chặn FB, TẮT, BẬT, img-url=https://github.com/Koolson/Qure/raw/mast
 
 
 [filter_remote]
-https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hostsVN-quantumult-exceptions-rule.conf, tag=🇻🇳hostsVN, force-policy=direct, enabled=true
-https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hostsVN-quantumult-rule.conf, tag=🇻🇳hostsVN, force-policy=Chặn Ads, enabled=true
-https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hostsVN-quantumult-OTA.conf, tag=🇻🇳hostsVN-OTA, force-policy=Chặn OTA, enabled=true
-https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hostsVN-quantumult-FB.conf, tag=🇻🇳hostsVN-FB, force-policy=Chặn FB, enabled=true
+https://raw.githubusercontent.com/quanganhbn/Quantum-X/master/hostsVN-quantumult-exceptions-rule.conf, tag=🇻🇳hostsVN, force-policy=direct, enabled=true
+https://raw.githubusercontent.com/quanganhbn/Quantum-X/master/hostsVN-quantumult-rule.conf, tag=🇻🇳hostsVN, force-policy=Chặn Ads, enabled=true
+https://raw.githubusercontent.com/quanganhbn/Quantum-X/master/hostsVN-quantumult-OTA.conf, tag=🇻🇳hostsVN-OTA, force-policy=Chặn OTA, enabled=true
+https://raw.githubusercontent.com/quanganhbn/Quantum-X/master/hostsVN-quantumult-FB.conf, tag=🇻🇳hostsVN-FB, force-policy=Chặn FB, enabled=true
 
 [rewrite_remote]
 https://raw.githubusercontent.com/quanganhbn/Quantum-X/master/Fake_Local_Script.txt, tag=Fake iAP Local, enabled=true
-https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hostsVN-quantumultX-rewrite.conf, tag=🇻🇳hostsVN, enabled=true
+https://raw.githubusercontent.com/quanganhbn/Quantum-X/master/hostsVN-quantumultX-rewrite.conf, tag=🇻🇳hostsVN, enabled=true
 
 [server_local]
 ;http=192.168.1.234:8888, username=, password=, fast-open=false, udp-relay=false, certificate=1 ,tag=DEBUG(Charles Fiddler)
