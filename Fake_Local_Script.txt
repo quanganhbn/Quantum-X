@@ -235,3 +235,11 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body l
 #weatherlive
 ^https:\/\/subs\.platforms\.team\/apple\/verifyTransaction$ url script-response-body chankanzu/weathelive.js
 
+#Mazzidict
+^https:\/\/api\.mazii\.net\/api\/init-login$ url script-response-body chankanzu/mazzidict.js
+
+#lichviet
+^https:\/\/api\.lichviet\.org\/user\/premiumstatus$ url script-response-body chankanzu/lichviet.js
+^https:\/\/api\.lichviet\.org\/user\/linkdetail$ url script-response-body chankanzu/lichviet2.js
+
+
