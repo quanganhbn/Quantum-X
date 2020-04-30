@@ -244,3 +244,15 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body l
 
 #puralsight
 ^https:\/\/app\.pluralsight\.com\/mobile-api\/v2\/user\/subscription$ url script-response-body chankanzu/pruralsight.js
+
+#voizfm
+^https:\/\/app\.voiz\.vn\/api\/v2\/query$  url script-response-body chankanzu/voizfm.js
+
+#photomath
+^https:\/\/lapi\.photomath\.net\/v3\/me$ url 302 chankanzu/photomath.js
+
+#funchinese
+^https:\/\/subs\.studycat\.net\/1\/getpurchasedata* url script-response-body chankanzu/funchinese.js
+
+#peak
+^https:\/\/api\.peakcloud\.org\/sharper\/1\/games$ url script-response-body chankanzu/peak.js
