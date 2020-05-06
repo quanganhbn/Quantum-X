@@ -263,4 +263,6 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body l
 ^https:\/\/subs\.studycat\.net\/1\/validatepurchase$ url script-response-body chankanzu/studycat.js
 
 #sothuchimisa
-^https:\/\/api\.sothuchi\.vn\/Services\/(MISAMembershipService\.svc\/json\/GetUserInfoByUserID|MISAMembershipService\.svc\/json\/GetUserCoin|FinanceService\.svc\/json\/GetLastestSynchronizeDataWithBlock)* url script-response-body chankanzu/sothuchimisa.js
+^https:\/\/api\.sothuchi\.vn\/Services\/MISAMembershipService\.svc\/json\/GetUserInfoByUserID* url script-response-body chankanzu/sothuchimisa.js
+^https:\/\/api\.sothuchi\.vn\/Services\/MISAMembershipService\.svc\/json\/GetUserCoin$ url script-response-body chankanzu/sothuchimisa.js
+^https:\/\/api\.sothuchi\.vn\/Services\/FinanceService\.svc\/json\/GetLastestSynchronizeDataWithBlock$ url script-response-body chankanzu/sothuchimisa.js
