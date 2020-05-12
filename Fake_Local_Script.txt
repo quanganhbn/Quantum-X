@@ -269,3 +269,6 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body l
 
 #ejoy
 ^https:\/\/api\.ejoy\.io\/graph$ url script-response-body chankanzu/ejoy.js
+
+#Muscle Booster
+^https:\/\/menscoach-api\.asqq\.io\/prod\/user$ url script-response-body langkhach/MuscleBooster.js
