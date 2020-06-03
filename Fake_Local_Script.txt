@@ -279,4 +279,5 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body l
 ^https:\/\/comi\.mobi\/v2\/account*  url script-response-body chankanzu/comicola.js
 
 #mochi
-^https:\/\/mochian-api\.mochidemy\.com\/v3* url script-response-body chankanzu/mochi.js
+^https:\/\/mochian-api\.mochidemy\.com\/v3\/img-banner-price\/vi?user_token* script-response-body chankanzu/mochi.js
+^https:\/\/mochian-api\.mochidemy\.com\/v3\/profile?user_token* script-response-body chankanzu/mochi.js
