@@ -282,10 +282,6 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body l
 ;^https:\/\/mochian-api\.mochidemy\.com\/v3\/img-banner-price\/vi?user_token*  url script-response-body chankanzu/mochi.js
 ;^https:\/\/mochian-api\.mochidemy\.com\/v3\/profile?user_token*   url script-response-body chankanzu/mochi.js
 
-
-url request-header (\r\n)x-session-token:.+(\r\n) request-header $1x-session-token: F3S0w0bysBQFdbjtxpFurrFv2ItBBcBkVQxUddQW+9vjt2JXM751ksqq5GAWpkl+kk9nhig9BGh9JhYHQaokmendY6zLZDscHiRkZD2HrdJclKVCLordAARJhYIrf5C+5OSK6ax2TA45CKi8S09FEtYXN4noXO7gt42NT6WPIv6DKhdIwVxQuIAMLU5abmpMTDlyWeI4ulBWcOQbuZWWZg==
-
-
 #cercube
 ^https:\/\/api\.cercube\.com\/v2\/user$  url script-response-body chankanzu/cercube.js
 ^https:\/\/api\.cercube\.com\/v2\/user\/login$  url script-response-body chankanzu/cercube2.js
