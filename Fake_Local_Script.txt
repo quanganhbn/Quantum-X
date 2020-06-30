@@ -290,4 +290,4 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body l
 ^https:\/\/www\.frenchpod101\.com\/learningcenter\/json/(newest2|login|categories|mycompleted2) url script-response-body chankanzu/innovative.js
 ^https:\/\/www\.englishclass101\.com\/learningcenter\/libraryjson\/(library_2*|mycompleted*|my_pathways*|newest*) url script-response-body chankanzu/innovative.js
 ^https:\/\/www\.japanesepod101\.com\/learningcenter\/json\/login$ url script-response-body chankanzu/innovative.js
-^https:\/\/www\.japanesepod101\.com\/learningcenter\/libraryjson\/(library_2|mycompleted*|my_pathways*|newest*) url script-response-body chankanzu/innovative.js
+^https:\/\/www\.japanesepod101\.com\/learningcenter\/libraryjson\/(library_2|mycompleted|my_pathways|newest) url script-response-body chankanzu/innovative.js
