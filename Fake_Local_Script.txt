@@ -226,7 +226,7 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body l
 #4english
 ^https:\/\/vocabinnews\.com\/v1\/users\/me\/info$ url script-response-body chankanzu/4english.vip.js
 ^https:\/\/vocabinnews\.com\/v1\/users\/me\/functions$ url script-response-body chankanzu/4English2.js
-^https:\/\/vocabinnews\.com\/v1\/users\/me\/pro$ url script-response-body chankanzu/4english3.js
+^https:\/\/vocabinnews\.com\/v1\/users\/me\/(pro$|shortid$) url script-response-body chankanzu/4english3.js
 ^https:\/\/vocabinnews\.com\/v2\/users\/me\/info url script-response-body chankanzu/4english3.js
 ^https:\/\/vocabinnews\.com\/v2\/books* url script-response-body chankanzu/4englishbook.js
 
