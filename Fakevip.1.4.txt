@@ -18,6 +18,7 @@ static=TẮT, direct, img-url=https://github.com/Koolson/Qure/raw/master/IconSet
 static=Chặn OTA, TẮT, BẬT, img-url=https://github.com/Koolson/Qure/raw/master/IconSet/Apple_Update.png
 static=Chặn Ads, BẬT, TẮT, img-url=https://github.com/Koolson/Qure/raw/master/IconSet/Advertising.png
 static=Chặn FB, TẮT, BẬT, img-url=https://github.com/Koolson/Qure/raw/master/IconSet/Facebook.png
+static=Chặn FB, TẮT, BẬT, img-url=https://github.com/Koolson/Qure/raw/master/IconSet/YouTube.png
 
 [server_remote]
 
@@ -27,6 +28,7 @@ https://raw.githubusercontent.com/quanganhbn/Quantum-X/master/hostsVN-quantumult
 https://raw.githubusercontent.com/quanganhbn/Quantum-X/master/hostsVN-quantumult-rule.conf, tag=🇻🇳hostsVN, force-policy=Chặn Ads, enabled=true
 https://raw.githubusercontent.com/quanganhbn/Quantum-X/master/hostsVN-quantumult-OTA.conf, tag=🇻🇳hostsVN-OTA, force-policy=Chặn OTA, enabled=true
 https://raw.githubusercontent.com/quanganhbn/Quantum-X/master/hostsVN-quantumult-FB.conf, tag=🇻🇳hostsVN-FB, force-policy=Chặn FB, enabled=true
+https://raw.githubusercontent.com/quanganhbn/Quantum-X/master/quantumult-YT.conf, tag=🇻🇳hostsVN-Youtube, force-policy=Chặn YT, enabled=true
 
 [rewrite_remote]
 https://raw.githubusercontent.com/quanganhbn/Quantum-X/master/Fake_Local_Script.txt, tag=Fake iAP Local, enabled=true
