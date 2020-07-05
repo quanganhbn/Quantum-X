@@ -18,7 +18,7 @@ static=TẮT, direct, img-url=https://github.com/Koolson/Qure/raw/master/IconSet
 static=Chặn OTA, TẮT, BẬT, img-url=https://github.com/Koolson/Qure/raw/master/IconSet/Apple_Update.png
 static=Chặn Ads, BẬT, TẮT, img-url=https://github.com/Koolson/Qure/raw/master/IconSet/Advertising.png
 static=Chặn FB, TẮT, BẬT, img-url=https://github.com/Koolson/Qure/raw/master/IconSet/Facebook.png
-static=Chặn FB, TẮT, BẬT, img-url=https://github.com/Koolson/Qure/raw/master/IconSet/YouTube.png
+static=Chặn YT, TẮT, BẬT, img-url=https://github.com/Koolson/Qure/raw/master/IconSet/YouTube.png
 
 [server_remote]
 
