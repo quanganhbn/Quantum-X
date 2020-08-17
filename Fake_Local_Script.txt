@@ -308,4 +308,4 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body l
 ^https:\/\/api\.taplytics\.com\/api\/v1\/clientAppUser$ url script-response-body chankanzu/rosettastore.js
 
 #kidupsoroban
-^https:\/\/api\.kidsupsoroban\.vn\/unlock?activate_code=12345678&device* url script-response-body chankanzu/kidupsoroban.js
+^https:\/\/api\.kidsupsoroban\.vn\/unlock?activate_code=KNZZEHH4&device=ios_iPhone9_2_ba375f08eae547d5918881ec87cf757b&source=ios$ url script-response-body chankanzu/kidupsoroban.js
