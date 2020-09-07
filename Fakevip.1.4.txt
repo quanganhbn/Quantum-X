@@ -31,7 +31,8 @@ https://raw.githubusercontent.com/quanganhbn/Quantum-X/master/hostsVN-quantumult
 https://raw.githubusercontent.com/quanganhbn/Quantum-X/master/quantumult-YT.conf, tag=🇻🇳hostsVN-Youtube, force-policy=Chặn YT, enabled=true
 
 [rewrite_remote]
-https://raw.githubusercontent.com/quanganhbn/Quantum-X/master/Fake_Local_Script.txt, tag=Fake iAP Local, enabled=true
+https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/QuantumultX/Fake_Vip.txt, tag=FakeVIP_COPY, enabled=true
+;https://raw.githubusercontent.com/quanganhbn/Quantum-X/master/Fake_Local_Script.txt, tag=Fake iAP Local, enabled=true
 https://raw.githubusercontent.com/quanganhbn/Quantum-X/master/hostsVN-quantumultX-rewrite.conf, tag=🇻🇳hostsVN, enabled=true
 
 [server_local]
