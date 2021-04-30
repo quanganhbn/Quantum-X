@@ -1,4 +1,5 @@
 [general]
+udp_whitelist=53, 1024-65535
 server_check_url=http://www.google.com/generate_204
 ;geo_location_checker=http://www.example.com/json/, https://www.example.com/script.js
 ;dns_exclusion_list=*.qq.com, qq.com, *.cmpassport.com
@@ -7,10 +8,12 @@ udp_whitelist=53, 1024-49151
 ;excluded_routes= 192.168.0.0/16, 172.16.0.0/12, 100.64.0.0/10, 10.0.0.0/8
 ;icmp_auto_reply=true
 [dns]
+no-system
 server=1.1.1.1
 server=1.0.0.1
 server=8.8.8.8
 server=8.8.4.4
+server=45.90.28.0
 
 [policy]
 static=BẬT, reject, img-url=https://github.com/Koolson/Qure/raw/master/IconSet/Direct.png
