@@ -1,5 +1,4 @@
 [general]
-udp_whitelist=53, 1024-65535
 server_check_url=http://www.google.com/generate_204
 ;geo_location_checker=http://www.example.com/json/, https://www.example.com/script.js
 ;dns_exclusion_list=*.qq.com, qq.com, *.cmpassport.com
