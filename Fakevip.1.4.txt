@@ -32,13 +32,13 @@ static=Chặn YT, TẮT, BẬT, img-url=https://github.com/Koolson/Qure/raw/mast
 https://malware-filter.gitlab.io/malware-filter/vn-badsite-filter-domains.txt, tag=[curben & CLĐ] FvckScam, force-policy=reject, update-interval=172800, opt-parser=true, enabled=true
 https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hostsVN-quantumult-rule.conf, tag=[hostsVN] AdBlock, force-policy=reject, update-interval=172800, opt-parser=false, enabled=true
 https://dbl.oisd.nl/nsfw/, tag=[oisd] NSFW, force-policy=reject, update-interval=172800, opt-parser=true, enabled=false
-https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/QuantumultX/Fake_Vip.txt, tag=FakeVIP_COPY, enabled=true
+
 
 [rewrite_remote]
 https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hostsVN-quantumultX-rewrite.conf, tag=AdBlock [hostsVN], update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/hcsavn/Quantumult-X/main/rewrite/bye-yt-ads.conf, tag=YTNoAds, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/hcsavn/Quantumult-X/main/rewrite/anti-revoke.conf, tag=NoRevoke [hcsavn], update-interval=172800, opt-parser=false, enabled=true
-
+https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/QuantumultX/Fake_Vip.txt, tag=FakeVIP_COPY, enabled=true
 [server_local]
 ;shadowsocks=127.0.0.1:8080, method=none, password=password, fast-open=false, udp-replay=false, tag=🇻🇳hostsVN
 ;http=192.168.1.234:8888, username=, password=, fast-open=false, udp-relay=false, certificate=1 ,tag=DEBUG(Charles Fiddler)
