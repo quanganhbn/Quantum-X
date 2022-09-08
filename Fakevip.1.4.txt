@@ -39,7 +39,7 @@ https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/hostsVN-quantu
 https://raw.githubusercontent.com/hcsavn/Quantumult-X/main/rewrite/bye-yt-ads.conf, tag=YTNoAds, update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/hcsavn/Quantumult-X/main/rewrite/anti-revoke.conf, tag=NoRevoke [hcsavn], update-interval=172800, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/QuantumultX/Fake_Vip.txt, tag=FakeVIP_COPY, enabled=true
-https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/QuantumultX/TikTok-JP.conf, tag=Tiktok解锁, update-interval=86400, opt-parser=false, enabled=true
+;https://raw.githubusercontent.com/chankanzu/Quan-X-1.3/master/QuantumultX/TikTok-JP.conf, tag=Tiktok解锁, update-interval=86400, opt-parser=false, enabled=true
 
 
 [server_local]
