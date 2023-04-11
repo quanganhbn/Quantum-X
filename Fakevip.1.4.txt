@@ -73,5 +73,6 @@ force_sni_domain_name = true
 [rewrite_local]
 # > Youtube
 ^(http|https):\/\/[\w-]+\.googlevideo\.com\/[\w?=&.]+(&oad|ctier) url reject-200
+^https:\/\/api-prod\.rainichi\.com\/api\/buying\/course$ url script-request-header rainichi.js
 
 [task_local]
