@@ -1,7 +1,8 @@
+var obj = JSON.parse($request.body);
+obj=
+{
+  "reward_credits" : 90000,
+		};
+$done({body: JSON.stringify(obj)});
 
-var modifiedHeaders = $request.headers;
-modifiedHeaders['reward_credits'] = '100000';
-
-$done({path: modifiedPath, headers : modifiedHeaders});
-// $done({path : modifiedPath});
-// $done({}); // Not changed.
+// Descriptionsp
